@@ -263,7 +263,7 @@ const CompanyList = () => {
           {filteredCompanies.map((company) => {
             const StatusIcon = statusConfig[company.status].icon;
             return (
-              <Link key={company.id} to={`/company/${company.id}`}>
+              <Link key={company.id} to={/air/company/${company.id}}>
                 <div className={`bg-white rounded-lg shadow-sm border-2 hover:shadow-md transition-shadow cursor-pointer ${statusConfig[company.status].bgColor}`}>
                   <div className="p-6">
                     <div className="flex items-start justify-between mb-4">
